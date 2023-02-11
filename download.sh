@@ -10,4 +10,7 @@ wget -O models/face_parser/state.ckpt https://www.dropbox.com/s/oe45ovn0we7ynh8/
 echo "Downloading e4e encoder"
 wget -O models/e4e/state.pt https://www.dropbox.com/s/t8tm5tbk27wa7er/state.pt?dl=1
 
+echo "Downloading stylegan2 pytorch checkpoint"
+wget -O models/stylegan2/stylegan2-ffhq-config-f.pt https://huggingface.co/akhaliq/jojogan-stylegan2-ffhq-config-f/resolve/main/stylegan2-ffhq-config-f.pt
+
 echo "Done"
