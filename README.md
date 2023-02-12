@@ -35,12 +35,7 @@ pip install -r requirements.txt
 
 ### 2. Download pretrained models
 
-#### StyleGAN2
-Convert the official weights, by cloning and following instructions of 
-[rosinality's PyTorch StyleGAN implementation ](https://github.com/rosinality/stylegan2-pytorch).
-Copy the created `stylegan2-ffhq-config-f.pt` checkpoint to models/stylegan2 folder.
-
-#### Other models (attribute classifier, face parser and e4e encoder)
+#### Other models (stylegan2-pytorch, attribute classifier, face parser and e4e encoder)
 Download the model checkpoint with download.sh script
 
 `./download.sh`
